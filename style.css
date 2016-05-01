@@ -2,28 +2,49 @@ html {
 	font-family: 'Neuton', serif;
 	font-size: 50px;
 	color: #000000;
-	background-image: url("http://ecx.images-amazon.com/images/I/51QyhsSam0L._SY344_BO1,204,203,200_.jpg");
+	background-color: #668B8B;
+}
+
+.alignColumns {
+	display: inline-block;
 }
 
 .author {
-	font-size: 24px;
+	font-size: 32px;
 	line-height: 100%;
-	margin-top: -30px;
+	margin-top: 0px;
 	padding-bottom: 30px;
 	color: black;
 	text-align: center;
 }
 
-.names {
-	font-size: 24px;
-	line-height: 70%;
-	color: black;
-	text-align: center;
+.floatLeft {
+	/*display: inline-block;*/
+	float: left;
+	margin-right: 20px;
+	padding-right: 20px;
+}
+
+.imgRight {
+	/*padding-left: -20px;*/
+	/*margin-left: -20px;*/
+	display: inline-block;
+	float: right;
 }
 
 .slidetitle {
 	color: black;
 	text-align: center;
+	line-height: 1em;
+}
+
+.tabTwo {
+	display: inline-block;
+	text-indent: 100px;
+}
+
+.titleslide {
+	margin-top: 100px;
 }
 
 .firstBullet {
@@ -31,7 +52,9 @@ html {
 }
 
 .subBullet {
-	margin-left: 50px;
+	display: inline-block;
+	/*margin-left: 50px;*/
+	line-height: 1em;
 }
 
 .bold {
@@ -143,7 +166,7 @@ html {
 	text-align: left;
 	font-size: .9em;
 	line-height: 70%;
-	color: #800;
+	color: #3B3B3B;
 }
 
 .transform2 {
