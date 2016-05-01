@@ -7,6 +7,7 @@ html {
 
 .alignColumns {
 	display: inline-block;
+	width: 100%;
 }
 
 .author {
@@ -19,15 +20,17 @@ html {
 }
 
 .floatLeft {
-	/*display: inline-block;*/
+	display: inline-block;
 	float: left;
-	margin-right: 20px;
-	padding-right: 20px;
+	/*margin-right: 20px;*/
+	/*padding-right: 20px;*/
+	width: 50%;
 }
 
 .imgRight {
 	/*padding-left: -20px;*/
 	/*margin-left: -20px;*/
+	width: 50%;
 	display: inline-block;
 	float: right;
 }
@@ -40,7 +43,7 @@ html {
 
 .tabTwo {
 	display: inline-block;
-	text-indent: 100px;
+	text-indent: 70px;
 }
 
 .titleslide {
@@ -167,6 +170,7 @@ html {
 	font-size: .9em;
 	line-height: 70%;
 	color: #3B3B3B;
+	overflow: hidden;
 }
 
 .transform2 {
