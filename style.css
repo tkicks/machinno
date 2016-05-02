@@ -27,7 +27,7 @@ html {
 	width: 50%;
 }
 
-.imgRight {
+.floatRight {
 	/*padding-left: -20px;*/
 	/*margin-left: -20px;*/
 	width: 50%;
@@ -35,10 +35,19 @@ html {
 	float: right;
 }
 
+.references {
+	font-size: 18px;
+}
+
 .slidetitle {
 	color: black;
 	text-align: center;
 	line-height: 1em;
+}
+
+.tabOne {
+	display: inline-block;
+	text-indent: 30px;
 }
 
 .tabTwo {
